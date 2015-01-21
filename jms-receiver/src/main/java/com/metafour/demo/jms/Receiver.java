@@ -17,4 +17,8 @@ public class Receiver {
   public void receiveMessage(MyBean bean) {
     logger.info("Received bean <" + bean.getId() + ":" + bean.getName() + ">");
   }
+
+  public void receiveMessage(byte[] data) {
+    logger.info("Received byte array <" + new String(data) + ">");
+  }
 }
