@@ -8,5 +8,11 @@
   <modules>
   	<module>rabbitmq-sender</module>
   	<module>rabbitmq-receiver</module>
+  	<module>jms-sender</module>
+  	<module>jms-receiver</module>
+  	<module>qpid-amqp-1-0-sender</module>
+  	<module>qpid-amqp-1-0-receiver</module>
+  	<module>qpid-amqp-0-9-sender</module>
+  	<module>qpid-amqp-0-9-receiver</module>
   </modules>
 </project>
