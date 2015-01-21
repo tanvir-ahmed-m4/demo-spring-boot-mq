@@ -14,5 +14,6 @@
   	<module>qpid-amqp-1-0-receiver</module>
   	<module>qpid-amqp-0-9-sender</module>
   	<module>qpid-amqp-0-9-receiver</module>
+  	<module>jms-receiver-annotation</module>
   </modules>
 </project>
