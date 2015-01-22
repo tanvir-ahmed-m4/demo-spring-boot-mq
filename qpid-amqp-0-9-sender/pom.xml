@@ -21,11 +21,6 @@
 			<version>0.30</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.qpid</groupId>
-			<artifactId>qpid-client</artifactId>
-			<version>0.30</version>
-		</dependency>
-		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.8</version>
