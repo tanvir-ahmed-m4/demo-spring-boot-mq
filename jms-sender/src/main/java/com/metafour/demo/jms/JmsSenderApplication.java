@@ -46,13 +46,13 @@ public class JmsSenderApplication  implements CommandLineRunner {
   public void run(String... args) throws Exception {
     logger.info("Scheduler should start now...");
     logger.info("Waiting few seconds...");
-    Thread.sleep(5000);
+    Thread.sleep(1000);
     context.close();
   }
   
   private final AtomicInteger counter = new AtomicInteger();
 
-  @Scheduled(fixedRate = 1000)
+  @Scheduled(fixedRate = 500)
   public void scheduledMessage() {
       
       // Send a message
