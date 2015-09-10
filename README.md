@@ -10,3 +10,6 @@ See interoperability.xlsx
 
 # Issues
 *  jms-receiver-annotation - @JmsListener doesn't automatically select receiveMessage() based on payload type.
+
+# References
+* Understanding the difference between AMQP & JMS. http://www.wmrichards.com/amqp.pdf
